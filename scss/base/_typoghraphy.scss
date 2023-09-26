@@ -36,3 +36,24 @@
     font-weight: 800;
     line-height: 100%;
 }
+
+.info__h1 {
+    color: $white;
+    text-align: right;
+    font-family: Manrope;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 120%;
+}
+
+.info__h3 {
+    color: $white;
+    color: #D9D9D9;
+    font-family: Manrope;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+    text-align: right;
+}
