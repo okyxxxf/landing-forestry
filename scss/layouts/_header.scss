@@ -1,0 +1,13 @@
+.header {
+    display: flex;
+    background: $green-black;
+    justify-content: space-between;
+    padding: 0px 100px;
+    height: 100px;
+    align-items: center;
+}
+
+.header__wrapper {
+    display: flex;
+    gap: 20px;  
+}

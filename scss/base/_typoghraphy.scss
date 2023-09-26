@@ -1,0 +1,38 @@
+.logo-h1 > * {
+    color: $white;
+    font-family: Manrope;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 100%;
+    text-decoration: none;
+}
+
+.number {
+    color: $yellow;
+    text-align: end;
+    font-family: Manrope;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+}
+
+.email {
+    color: $white;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+}
+
+.header__button {
+    color: $black;
+    font-family: Manrope;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 100%;
+}
