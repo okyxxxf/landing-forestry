@@ -28,7 +28,7 @@
     line-height: 120%;
 }
 
-.header__button {
+.header__button, button {
     color: $black;
     font-family: Manrope;
     font-size: 20px;
@@ -98,4 +98,23 @@
     font-style: normal;
     font-weight: 800;
     line-height: 120%;
+}
+
+.homestead__h2 {
+    color: $black;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 120%; 
+}
+
+.homestead__p {
+    color: $black;
+    font-family: Manrope;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; 
 }

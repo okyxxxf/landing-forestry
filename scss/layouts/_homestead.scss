@@ -1,0 +1,19 @@
+.homestead__wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 871px;
+    margin: auto;
+    gap: 50px;
+    align-items: center;
+} 
+
+.homestead {
+    background: $white;
+    padding-bottom: 90px;
+}
+
+
+.homestead__img {
+    padding-bottom: 40px;
+}
+
