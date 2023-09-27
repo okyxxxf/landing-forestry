@@ -135,7 +135,10 @@
 }
 @keyframes show {
   from {
-    height: 0;
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
   }
 }
 .button {
@@ -194,11 +197,11 @@
   background-color: #FBC029;
 }
 .forestries__element:focus .forestry__element-wrapper-p {
-  animation: show 0.5s ease-in-out;
+  animation: show 1s ease-in-out;
   animation-fill-mode: forwards;
 }
 .forestries__element:focus .forestry__img {
-  animation: show 0.5s ease;
+  animation: show 1s ease;
   animation-fill-mode: forwards;
 }
 
@@ -206,12 +209,12 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
-  padding-top: 20px;
+  justify-content: center;
 }
 
 .forestry__element-wrapper {
   display: flex;
-  transition: 0.2s;
+  flex-direction: row;
 }
 
 .forestries__line {
@@ -317,8 +320,8 @@
 .homestead__wrapper {
   display: flex;
   flex-direction: column;
-  width: 871px;
-  margin: auto;
+  width: 901px;
+  margin: 0 auto;
   gap: 50px;
   align-items: center;
 }
