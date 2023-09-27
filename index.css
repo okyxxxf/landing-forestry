@@ -58,6 +58,38 @@
   text-align: right;
 }
 
+.bold {
+  font-weight: 700;
+}
+
+.forestry__h3 {
+  color: #1A1A1A;
+  text-align: center;
+  font-family: Manrope;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 100%;
+}
+
+.forestry__p {
+  color: #1A1A1A;
+  font-family: Manrope;
+  font-size: 20px;
+  font-style: normal;
+  line-height: 100%;
+}
+
+@keyframes scaleimg {
+  from {
+    transform: scale(0);
+  }
+}
+@keyframes show {
+  from {
+    height: 0;
+  }
+}
 .button {
   border-radius: 5px;
   background: #F0E332;
@@ -80,6 +112,80 @@
   left: 38px;
 }
 
+.forestries__element {
+  background-color: #F0E332;
+  display: flex;
+  border-radius: 5px;
+  flex-wrap: wrap;
+  align-items: center;
+  position: relative;
+}
+
+.forestry__h3 {
+  flex-basis: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  transition: 0.5s;
+}
+
+.forestry__img {
+  width: 200px;
+  padding: 20px;
+  height: 200px;
+  border-radius: 30px;
+}
+
+.forestries__element:not(:focus) *:not(.forestry__h3) {
+  display: none;
+}
+
+.forestries__element:focus .forestry__h3 {
+  background-color: #FBC029;
+}
+.forestries__element:focus .forestry__element-wrapper-p {
+  animation: show 0.5s ease-in-out;
+  animation-fill-mode: forwards;
+}
+.forestries__element:focus .forestry__img {
+  animation: show 0.5s ease;
+  animation-fill-mode: forwards;
+}
+
+.forestry__element-wrapper-p {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 20px;
+}
+
+.forestry__element-wrapper {
+  display: flex;
+  transition: 0.2s;
+}
+
+.forestries__line {
+  position: absolute;
+  background: #01662E;
+  transform: rotate(-45deg);
+  z-index: -1;
+}
+
+.forestries__line_big {
+  width: 412.781px;
+  height: 2612.09px;
+  top: -824px;
+  left: 300px;
+}
+
+.forestries__line_small {
+  width: 105.617px;
+  height: 2612.09px;
+  flex-shrink: 0;
+  top: -824px;
+  left: 900px;
+}
+
 .header {
   display: flex;
   background: #00481A;
@@ -94,13 +200,39 @@
   gap: 20px;
 }
 
+.forestries__list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin: 0 240px;
+}
+
+.forestries {
+  background: #00481A;
+  position: relative;
+  z-index: 0;
+}
+
+.forestries__h2 {
+  padding: 90px 0;
+  color: #D9D9D9;
+  text-align: center;
+  font-family: Manrope;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 120%;
+}
+
 .info {
+  position: relative;
   background: url("/img/info-fon.png");
   background-size: 100% 100%;
   height: 34.4827586207vw;
   display: flex;
   align-items: center;
   justify-content: end;
+  z-index: 2;
 }
 
 .info__text {

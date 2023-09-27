@@ -3,13 +3,17 @@
 
 @import 
     'base/typoghraphy',
+    'base/animations',
     'base/button';
     
 @import 
-    'components/logo';    
+    'components/logo',
+    'components/forestry',
+    'components/line';
 
 @import 
     'layouts/header',
+    'layouts/forestries',
     'layouts/section-info';
 
 @import 

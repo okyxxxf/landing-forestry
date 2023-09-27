@@ -57,3 +57,25 @@
     line-height: 120%;
     text-align: right;
 }
+
+.bold {
+    font-weight: 700;
+}
+
+.forestry__h3 {
+    color: $black;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 100%; 
+}
+
+.forestry__p {
+    color: $black;
+    font-family: Manrope;
+    font-size: 20px;
+    font-style: normal;
+    line-height: 100%;
+}

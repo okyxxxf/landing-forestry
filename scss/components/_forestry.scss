@@ -1,0 +1,56 @@
+.forestries__element {
+    background-color: $yellow;
+    display: flex;
+    border-radius: 5px;
+    flex-wrap: wrap;
+    align-items: center;
+    position: relative;
+}
+
+.forestry__h3 {
+    flex-basis: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    transition: 0.5s;
+}
+
+.forestry__img {
+    width: 200px;
+    padding: 20px;
+    height: 200px;
+    border-radius: 30px;
+}
+
+
+.forestries__element:not(:focus) {
+    *:not(.forestry__h3) {
+        display: none;
+    }
+}
+
+.forestries__element:focus {
+    .forestry__h3 {
+        background-color: $orange;
+    }
+    .forestry__element-wrapper-p {
+        animation: show 0.5s ease-in-out;
+        animation-fill-mode:forwards;
+    }
+    .forestry__img {
+        animation: show 0.5s ease;
+        animation-fill-mode:forwards;
+    }
+}
+
+.forestry__element-wrapper-p{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 20px;
+}
+
+.forestry__element-wrapper {
+    display: flex;
+    transition: 0.2s;
+}
