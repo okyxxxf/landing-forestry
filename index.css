@@ -290,4 +290,8 @@ q:before, q:after {
   content: none;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 /*# sourceMappingURL=index.css.map */
