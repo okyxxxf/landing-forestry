@@ -119,6 +119,15 @@
   line-height: 120%;
 }
 
+.footer__author {
+  color: #D9D9D9;
+  font-family: Manrope;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100%;
+}
+
 @keyframes scaleimg {
   from {
     transform: scale(0);
@@ -342,6 +351,14 @@
   flex-direction: column;
   gap: 30px;
   padding-right: 100px;
+}
+
+.footer {
+  height: 100px;
+  background: #00481A;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 html, body, div, span, applet, object, iframe,
