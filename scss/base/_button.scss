@@ -3,8 +3,10 @@
     background: $yellow;
     padding: 15px 30px;
     transition: 1s;
+    border: none;
 }
 
 .button:hover {
     background: $orange;
+    cursor: pointer;
 }

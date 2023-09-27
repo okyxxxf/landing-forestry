@@ -115,10 +115,12 @@
   background: #F0E332;
   padding: 15px 30px;
   transition: 1s;
+  border: none;
 }
 
 .button:hover {
   background: #FBC029;
+  cursor: pointer;
 }
 
 .header__logo {
