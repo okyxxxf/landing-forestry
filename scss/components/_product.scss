@@ -1,0 +1,21 @@
+.product {
+    background: $green-black;
+    display: flex;
+    flex-direction: column;
+}
+
+.product__img {
+    width: 280px;
+    height: 190px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.product__p {
+    display: flex;
+    width: 300px;
+    height: 100px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+}

@@ -1,0 +1,16 @@
+.products__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.products {
+    background: $green-light;
+    position: relative;
+    padding-bottom: 90px;
+}
+
+.products__h2 {
+    padding: 90px 0;
+}
