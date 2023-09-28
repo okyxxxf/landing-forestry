@@ -325,6 +325,7 @@
   background: #1A1A1A;
   border-radius: 5px;
   position: relative;
+  padding-bottom: 20px;
 }
 
 .modal__h1 {
@@ -344,7 +345,6 @@
 .modal__slider {
   width: 364px;
   height: 234px;
-  background-color: firebrick;
 }
 
 .modal__h2 {
@@ -361,7 +361,6 @@
 .modal__table {
   width: calc(100% - 60px);
   margin: auto;
-  padding-bottom: 20px;
 }
 
 .modal__table * {
