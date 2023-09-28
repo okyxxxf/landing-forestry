@@ -1,0 +1,60 @@
+.modal {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: $white;
+    background: rgba($color: $black, $alpha: .6);
+    top: 0px;
+}
+
+.modal__wrapper {
+    background: $black;
+    border-radius: 5px;
+    position: relative;
+}
+
+.modal__h1 {
+    padding: 30px 0;
+}
+
+.modal__info-wrapper {
+    width: 363px;
+}
+
+.modal__info {
+    display: flex;
+    gap: 30px;
+    padding: 0 30px;
+}
+
+.modal__slider {
+    width: 364px;
+    height: 234px;
+    background-color: firebrick;
+}
+
+.modal__h2 {
+    padding: 30px;
+}
+
+.cross-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.modal__table {
+    width: calc(100% - 60px);
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+.modal__table * {
+    border: 1px $white solid;
+    padding: 5px;
+}

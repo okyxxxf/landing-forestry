@@ -1,5 +1,6 @@
 @import 
-    'abstracts/variables';
+    'abstracts/variables',
+    'abstracts/abstract-class';
 
 @import 
     'base/typoghraphy',
@@ -10,7 +11,8 @@
     'components/logo',
     'components/forestry',
     'components/line',
-    'components/product';
+    'components/product',
+    'components/modal';
 
 @import 
     'layouts/header',
