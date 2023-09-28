@@ -1,0 +1,24 @@
+.preloader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $black;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    z-index: 100;
+    animation: blur 1s ease-in-out 2.3s forwards;
+}
+
+.preloader__logo-img {
+    animation: appear-from-top 1s ease-in-out;
+}
+
+.preloader__logo-h1 {
+    animation: appear-from-right 1.3s ease-in-out forwards;
+    visibility: hidden;
+}
+
+.preloader__logo {
+    animation: move-to-top-left 1.3s ease-in-out 1.3s forwards;
+}

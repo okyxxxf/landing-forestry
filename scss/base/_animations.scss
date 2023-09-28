@@ -12,3 +12,31 @@
         opacity: 1;
     }
 }
+
+@keyframes appear-from-top {
+    from {
+        transform: translateY(calc(-100vh / 2 - 50px));
+    }
+}
+
+@keyframes appear-from-right {
+    from {
+        transform: translateX(calc(100vw / 2 + 80px));
+    }
+    to {
+        visibility: visible;
+    }
+}
+
+@keyframes blur {
+    to {
+        opacity: 0;
+        display: none;
+    }
+}
+
+@keyframes move-to-top-left {
+    to {
+        transform: translateX(calc(-100vw / 2 + 130px)) translateY(calc(-100vh / 2 + 50px));
+    }
+}
