@@ -117,7 +117,5 @@ window.onload = () => {
     })
   };
 
-  hideModal(modalWindow);
-
   buttons.forEach(button => button.addEventListener('click', () => showModal(modalWindow)));
 };
