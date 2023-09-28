@@ -9,6 +9,8 @@
     color: $white;
     background: rgba($color: $black, $alpha: .6);
     top: 0px;
+    animation: show 0.5s ease;
+    animation-fill-mode: both;
 }
 
 .modal__wrapper {
