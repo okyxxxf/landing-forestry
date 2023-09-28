@@ -4,7 +4,9 @@
     border-radius: 5px;
     flex-wrap: wrap;
     align-items: center;
+    justify-content: center;
     position: relative;
+    cursor: pointer;
 }
 
 .forestry__h3 {
@@ -12,15 +14,14 @@
     display: flex;
     justify-content: center;
     padding: 30px;
+    margin: 0;
     transition: 0.5s;
 }
 
 .forestry__img {
     width: 200px;
-    padding: 20px;
     height: 200px;
-    border-radius: 30px;
-
+    border-radius: 5px;
 }
 
 
@@ -33,6 +34,7 @@
 .forestries__element:focus {
     .forestry__h3 {
         background-color: $orange;
+        border-radius: 5px;
     }
     .forestry__element-wrapper-p {
         animation: show 1s ease-in-out;
@@ -54,4 +56,6 @@
 .forestry__element-wrapper {
     display: flex;
     flex-direction: row;
+    gap: 60px;
+    padding: 20px;
 }
