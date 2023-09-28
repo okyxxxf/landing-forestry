@@ -2,12 +2,10 @@
     background: $green-black;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .product__img {
-    width: 280px;
-    height: 190px;
-    padding: 10px;
     border-radius: 5px;
 }
 
@@ -18,4 +16,21 @@
     flex-direction: column;
     justify-content: center;
     flex-shrink: 0;
+}
+
+.img-scaler {
+    display: inline-block;
+    overflow: hidden;
+    width: 280px;
+    height: 190px;
+    margin-top: 10px;
+}
+
+.img-scaler img {
+    display: block;
+    transition: 0.4s;
+}
+
+.img-scaler img:hover {
+    transform: scale(1.1);
 }
