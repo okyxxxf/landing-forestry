@@ -8,16 +8,6 @@ window.onload = () => {
       <div class="modal__info">
           <div class="modal__slider">
               <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-                  <div class="carousel-indicators">
-                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
-                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
-                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
-                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" aria-label="Slide 7"></button>
-                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7" aria-label="Slide 8"></button>
-                  </div>
                   <div class="carousel-inner">
                       <div class="carousel-item active">
                           <img src="./img/homestead-additional1.jpg" class="d-block w-100" alt="...">
@@ -58,8 +48,13 @@ window.onload = () => {
               <p class="modal__p">Охотничий комплекс «Охотник у дуба» расположился в 15 км от г. Минска в живописном месте среди вековых дубов рядом с озером.
                   <br><br>
                   Комплекс может принять как большие компании для проведения торжественных мероприятий , так и небольшие, для отдыха на природе в кругу близких и родных.
-                  <br><br>
-                  На площади в 2,5 га в тени дубов среди зелени уютно расположились 2 дома и беседка.</p>
+                  </p>
+          </div>
+          <div class="modal__info-wrapper">
+                <p class="modal__p">На площади в 2,5 га в тени дубов среди зелени уютно расположились 2 дома и беседка.
+                <br><br>
+                В доме устроено автономное водоснабжение. Вода поступает из скважины глубиной более 140 м. Обогрев дома в зимнее время производится с помощью системы «теплый пол».
+                </p>
           </div>
       </div>
       <h2 class="modal__h2">Актуальные цены на услуги</h2>

@@ -25,12 +25,13 @@
 }
 
 .modal__info-wrapper {
-    width: 363px;
+    width: 290px;
 }
 
 .modal__info {
     display: flex;
-    gap: 30px;
+    justify-content: space-around;
+    align-items: center;
     padding: 0 30px;
 }
 
@@ -58,4 +59,10 @@
 .modal__table * {
     border: 1px $white solid;
     padding: 5px;
+}
+
+.carousel-item img{
+    width: 350px;
+    height: 220px;
+    overflow: hidden;
 }
