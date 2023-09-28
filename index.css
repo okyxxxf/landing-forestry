@@ -2,6 +2,16 @@
   display: none;
 }
 
+#no-border-bottom {
+  border-bottom: none;
+  border-top: none;
+}
+
+#no-border-top {
+  border-top: none;
+  border-bottom: none;
+}
+
 .logo-h1 > * {
   color: #D9D9D9;
   font-family: Manrope;
