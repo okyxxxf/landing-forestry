@@ -6,6 +6,18 @@
     border: none;
 }
 
+@media screen and (max-width: $tablet-size) {
+    .button {
+        padding: 12px 25px;
+    }
+}
+
+@media screen and (max-width: $mobile-size) {
+    .button {
+        padding: 6px 12px;
+    }
+}
+
 .button:hover {
     background: $orange;
     cursor: pointer;

@@ -8,3 +8,15 @@
     top: 10px;
     left: 38px;
 }
+
+@media screen and (max-width: $mobile-size) {
+    .header__logo-img {
+        width: 30px;
+    }
+
+    .logo-h1 {
+        top: 5px;
+        left: 19px;
+        display: flex;
+    }
+}

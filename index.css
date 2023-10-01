@@ -251,7 +251,7 @@
     font-size: 10px;
   }
 }
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 490px) {
   .logo-h1 > * {
     font-size: 10px;
   }
@@ -355,6 +355,16 @@
   border: none;
 }
 
+@media screen and (max-width: 834px) {
+  .button {
+    padding: 12px 25px;
+  }
+}
+@media screen and (max-width: 490px) {
+  .button {
+    padding: 6px 12px;
+  }
+}
 .button:hover {
   background: #FBC029;
   cursor: pointer;
@@ -371,6 +381,16 @@
   left: 38px;
 }
 
+@media screen and (max-width: 490px) {
+  .header__logo-img {
+    width: 30px;
+  }
+  .logo-h1 {
+    top: 5px;
+    left: 19px;
+    display: flex;
+  }
+}
 .forestries__element {
   background-color: #F0E332;
   display: flex;
@@ -587,11 +607,27 @@
   display: flex;
   background: #00481A;
   justify-content: space-between;
-  padding: 0px 100px;
+  padding: 0px 6.9444444444vw;
   height: 100px;
   align-items: center;
 }
 
+@media screen and (max-width: 700px) {
+  .header__button {
+    display: none;
+  }
+}
+@media screen and (max-width: 834px) {
+  .header {
+    padding: 0px 5.9952038369vw;
+  }
+}
+@media screen and (max-width: 490px) {
+  .header {
+    padding: 0px 5.5555555556vw;
+    height: 50px;
+  }
+}
 .header__wrapper {
   display: flex;
   gap: 20px;

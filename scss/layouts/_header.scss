@@ -2,9 +2,28 @@
     display: flex;
     background: $green-black;
     justify-content: space-between;
-    padding: 0px 100px;
+    padding: 0px calc(100vw / 14.4);
     height: 100px;
     align-items: center;
+}
+
+@media screen and (max-width: 700px) {
+    .header__button {
+        display: none;
+    }
+}
+
+@media screen and (max-width: $tablet-size) {
+    .header {
+        padding: 0px calc(100vw / 16.68);
+    }
+}
+
+@media screen and (max-width: $mobile-size) {
+    .header {
+        padding: 0px calc(100vw / 18);
+        height: 50px;
+    }
 }
 
 .header__wrapper {
