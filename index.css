@@ -714,14 +714,16 @@
 
 @media screen and (max-width: 834px) {
   .info__text {
-    padding: 12.5vw 33.1125827815vw;
+    padding: 12.5vw 19.9203187251vw;
     padding-right: 50px;
+    gap: 20px;
   }
 }
 @media screen and (max-width: 490px) {
   .info__text {
-    padding: 25vw 33.1125827815vw;
+    padding: 25vw 12.4688279302vw;
     padding-right: 20px;
+    gap: 10px;
   }
 }
 .footer {
