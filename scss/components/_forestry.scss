@@ -49,13 +49,38 @@
 .forestry__element-wrapper-p{
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: calc(100vw / 72);
     justify-content: center;
 }
 
 .forestry__element-wrapper {
     display: flex;
     flex-direction: row;
-    gap: 60px;
-    padding: 20px;
+    align-items: center;
+    gap: calc(100vw / 24);
+    padding: calc(100vw / 72);
+}
+
+.forestries__element:nth-child(even)  .forestry__element-wrapper{
+    flex-direction: row-reverse;
+}
+
+@media screen and (max-width: $tablet-size) {
+    .forestry__img {
+        width: 150px;
+        height: 150px;
+    }
+    .forestry__h3 {
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: $mobile-size) {
+    .forestry__img {
+        width: 72px;
+        height: 72px;
+    }
+    .forestry__h3 {
+        padding: 10px;
+    }
 }
