@@ -546,6 +546,17 @@
   transform: scale(1.1);
 }
 
+@media screen and (max-width: 490px) {
+  .img-scaler {
+    width: 140px;
+    height: 95px;
+    margin-top: 5px;
+  }
+  .product__p {
+    width: 150px;
+    height: 50px;
+  }
+}
 .modal {
   width: 100vw;
   height: 100vh;
@@ -702,18 +713,18 @@
 .products__list {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 1.3888888889vw;
   justify-content: center;
 }
 
 .products {
   background: #01662E;
   position: relative;
-  padding-bottom: 90px;
+  padding-bottom: 6.25vw;
 }
 
 .products__h2 {
-  padding: 90px 0;
+  padding: 6.25vw 0;
 }
 
 .homestead__wrapper {

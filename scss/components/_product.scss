@@ -36,3 +36,16 @@
 .img-scaler img:hover {
     transform: scale(1.1);
 }
+
+@media screen and (max-width: $mobile-size) {
+    .img-scaler {
+        width: 140px;
+        height: 95px;
+        margin-top: 5px;
+    }
+
+    .product__p {
+        width: 150px;
+        height: 50px;
+    }
+}

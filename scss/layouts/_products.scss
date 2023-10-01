@@ -1,16 +1,16 @@
 .products__list {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: calc(100vw / 72);
     justify-content: center;
 }
 
 .products {
     background: $green-light;
     position: relative;
-    padding-bottom: 90px;
+    padding-bottom: calc(100vw / 16);
 }
 
 .products__h2 {
-    padding: 90px 0;
+    padding: calc(100vw / 16) 0;
 }
