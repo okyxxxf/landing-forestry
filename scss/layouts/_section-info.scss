@@ -15,12 +15,14 @@
 
 @media screen and (max-width: $tablet-size) {
     .info__text {
+        padding: calc(100vw / 8) calc(100vw / 3.02);
         padding-right: 50px;
     }
 }
 
 @media screen and (max-width: $mobile-size) {
     .info__text {
+        padding: calc(100vw / 4) calc(100vw / 3.02);
         padding-right: 20px;
     }
 }

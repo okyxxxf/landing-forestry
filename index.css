@@ -714,11 +714,13 @@
 
 @media screen and (max-width: 834px) {
   .info__text {
+    padding: 12.5vw 33.1125827815vw;
     padding-right: 50px;
   }
 }
 @media screen and (max-width: 490px) {
   .info__text {
+    padding: 25vw 33.1125827815vw;
     padding-right: 20px;
   }
 }
