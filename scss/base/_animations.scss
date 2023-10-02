@@ -1,0 +1,58 @@
+@keyframes scaleimg {
+    from {
+        transform: scale(0);
+    }
+}
+
+@keyframes show {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes appear-from-top {
+    from {
+        transform: translateY(calc(-100vh / 2 - 50px));
+    }
+}
+
+@keyframes appear-from-right {
+    from {
+        transform: translateX(calc(100vw / 2 + 80px));
+    }
+    to {
+        visibility: visible;
+    }
+}
+
+@keyframes blur {
+    to {
+        opacity: 0;
+        display: none;
+    }
+}
+
+@keyframes move-to-top-left {
+    to {
+        transform: translateX(calc(-100vw / 2 + 30px + (100vw / 14.4))) translateY(calc(-100vh / 2 + 50px));
+    }
+}
+
+@media screen and (max-width: $tablet-size) {
+    @keyframes move-to-top-left {
+        to {
+            transform: translateX(calc(-100vw / 2 + 30px + (100vw / 16.68))) translateY(calc(-100vh / 2 + 50px));
+        }
+    }
+}
+
+@media screen and (max-width: $mobile-size) {
+    @keyframes move-to-top-left {
+        to {
+            transform: translateX(calc(-100vw / 2 + 15px + (100vw / 18))) translateY(calc(-100vh / 2 + 25px));
+        }
+    }
+}

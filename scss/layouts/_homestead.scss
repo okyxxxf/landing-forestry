@@ -1,0 +1,48 @@
+.homestead__wrapper {
+    display: flex;
+    flex-direction: column;
+    width: calc(100vw / 1.6);
+    margin: 0 auto;
+    gap: calc(100vw / 28.8);
+    align-items: center;
+    z-index: 2;
+} 
+
+.homestead {
+    padding-bottom: 90px;
+    background: $white;
+    z-index: -2;
+}
+
+.homestead-bg {
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    z-index: -1;
+    background: linear-gradient(to bottom, $green-light 50%, $white 50%);
+
+}
+
+.homestead__img {
+    padding-bottom: 40px;
+    z-index: 1;
+    width: calc(100vw / 1.65);
+    height: calc(100vw / 2.93);
+}
+
+@media screen and (max-width: $tablet-size) {
+    .homestead__img {
+        width: calc(100vw / 1.3);
+        height: calc(100vw / 2.33);
+        padding-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: $mobile-size) {
+    .homestead__img {
+        width: 289px;
+        height: 163px;
+        padding-bottom: 0px;
+    }
+}
+

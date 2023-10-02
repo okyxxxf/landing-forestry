@@ -1,0 +1,31 @@
+.info {
+    position: relative;
+    background: linear-gradient(270deg, #01662E 10.03%, rgba(0, 0, 0, 0.00) 78.26%), url('img/info-fon.png'), lightgray 50% / cover no-repeat;
+    background-size: cover;
+    z-index: 2;
+}
+
+.info__text {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: calc(100vw / 16) calc(100vw / 3.02);
+    padding-right: 100px;
+}
+
+@media screen and (max-width: $tablet-size) {
+    .info__text {
+        padding: calc(100vw / 8) calc(100vw / 5.02);
+        padding-right: 50px;
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: $mobile-size) {
+    .info__text {
+        padding: calc(100vw / 4) calc(100vw / 8.02);
+        padding-right: 20px;;
+        gap: 10px;
+    }
+}
+

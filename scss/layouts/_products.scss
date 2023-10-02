@@ -1,0 +1,16 @@
+.products__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: calc(100vw / 72);
+    justify-content: center;
+}
+
+.products {
+    background: $green-light;
+    position: relative;
+    padding-bottom: calc(100vw / 16);
+}
+
+.products__h2 {
+    padding: calc(100vw / 16) 0;
+}

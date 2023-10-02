@@ -1,0 +1,28 @@
+.button {
+    border-radius: 5px;
+    background: $yellow;
+    padding: 15px 30px;
+    transition: 1s;
+    border: none;
+    z-index: 11;
+}
+
+@media screen and (max-width: $tablet-size) {
+    .button {
+        padding: 12px 25px;
+    }
+}
+
+@media screen and (max-width: $mobile-size) {
+    .button {
+        padding: 12px 25px;
+    }
+}
+
+@media (hover: hover) {
+    .button:hover {
+        background: $orange;
+        cursor: pointer;
+    }
+}
+  

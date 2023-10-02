@@ -1,0 +1,13 @@
+.footer {
+    height: 100px;
+    background: $green-black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: $mobile-size) {
+    .footer {
+        height: 50px;
+    }
+}

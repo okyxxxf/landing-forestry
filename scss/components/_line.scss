@@ -1,0 +1,21 @@
+.forestries__line {
+    position: absolute;
+    background: $green-light;
+    transform: rotate(-45deg);
+    z-index: -1;
+}
+
+.forestries__line_big {
+    width: 412.781px;
+    height: 2612.09px;
+    top: -824px;
+    left: 300px;
+}
+
+.forestries__line_small {
+    width: 105.617px;
+    height: 2612.09px;
+    flex-shrink: 0;
+    top: -824px;
+    left: 900px;
+}

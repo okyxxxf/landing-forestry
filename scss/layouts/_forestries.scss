@@ -1,0 +1,30 @@
+.forestries__list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 0 calc(100vw / 7.2 );
+}
+
+.forestries {
+    background: $green-black;
+    position: relative;
+    z-index: 0;
+    padding-bottom: calc(100vw / 16);
+}
+
+.forestries__h2 {
+    padding: calc(100vw / 16) 0;
+}
+
+@media screen and (max-width: $tablet-size) {
+    .forestries__list {
+        margin: 0 calc(100vw / 10.425 );
+    }
+}
+
+@media screen and (max-width: $mobile-size) {
+    .forestries__list {
+        margin: 0 calc(100vw / 9.72972972972973 );
+        gap : 10px;
+    }
+}
