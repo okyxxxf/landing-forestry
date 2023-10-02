@@ -1,7 +1,0 @@
-@media screen and (max-width: $tablet-size) {
-
-}
-
-@media screen and (max-width: $mobile-size) {
-
-}
