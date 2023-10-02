@@ -299,10 +299,10 @@
     font-size: 10px;
   }
   .modal__p {
-    font-size: 6px;
+    font-size: 10px;
   }
   .modal__h2 {
-    font-size: 8px;
+    font-size: 12px;
   }
   .cross-icon {
     font-size: 20px;
@@ -378,7 +378,7 @@
 }
 @media screen and (max-width: 490px) {
   .button {
-    padding: 6px 12px;
+    padding: 12px 25px;
   }
 }
 @media (hover: hover) {
@@ -654,7 +654,7 @@
     height: 20%;
   }
   .modal__info-wrapper {
-    width: 100%;
+    width: 90%;
   }
   .modal__h2 {
     padding: 10px;
@@ -767,7 +767,7 @@
   margin: 0 auto;
   gap: 3.4722222222vw;
   align-items: center;
-  z-index: 1;
+  z-index: 2;
 }
 
 .homestead {
