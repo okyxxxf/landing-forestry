@@ -341,6 +341,7 @@
   to {
     opacity: 0;
     display: none;
+    z-index: 0;
   }
 }
 @keyframes move-to-top-left {
