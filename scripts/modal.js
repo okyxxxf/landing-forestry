@@ -111,5 +111,5 @@ window.onload = () => {
     });
   };
 
-  buttons.forEach(button => button.addEventListener('click', () => showModal(modalWindow)));
+  buttons.forEach((button) => {button.addEventListener('click', () => showModal(modalWindow))});
 };
