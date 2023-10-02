@@ -108,12 +108,8 @@ window.onload = () => {
     
     cross.addEventListener('click', () => {
       hideModal(modal);
-    })
-    cross.addEventListener('touch', () => {
-        hideModal(modal);
-      })
+    });
   };
 
   buttons.forEach(button => button.addEventListener('click', () => showModal(modalWindow)));
-  buttons.forEach(button => button.addEventListener('touch', () => showModal(modalWindow)));
 };
