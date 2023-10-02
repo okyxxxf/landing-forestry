@@ -25,7 +25,7 @@
 }
 
 .modal__info-wrapper {
-    width: 290px;
+    width: calc(100vw / 4);
 }
 
 .modal__info {
@@ -46,8 +46,8 @@
 
 .cross-icon {
     position: absolute;
-    top: 10px;
-    right: 10px;
+    top: 30px;
+    right: 30px;
     cursor: pointer;
 }
 
@@ -65,4 +65,42 @@
     width: 350px;
     height: 220px;
     overflow: hidden;
+}
+
+
+@media screen and (max-width: $tablet-size) {
+    .modal__info {
+        padding: 0 10px;
+        gap: 5px;
+    }
+    .modal__slider {
+        width: 50%;
+        height: auto;
+    }
+    .modal__info-wrapper {
+    }
+    .modal__h2 {
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .modal__info {
+        flex-direction: column;
+        padding: 0 10px;
+        gap: 5px;
+    }
+
+    .modal__slider {
+        width: 90%;
+        height: 20%;
+    }
+
+    .modal__info-wrapper {
+        width: 100%;
+    }
+
+    .modal__h2 {
+        padding: 10px;
+    }
 }
