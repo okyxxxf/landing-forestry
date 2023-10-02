@@ -382,11 +382,12 @@
     padding: 6px 12px;
   }
 }
-.button:hover {
-  background: #FBC029;
-  cursor: pointer;
+@media (hover: hover) {
+  .button:hover {
+    background: #FBC029;
+    cursor: pointer;
+  }
 }
-
 .header__logo {
   position: relative;
   display: flex;

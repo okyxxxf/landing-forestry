@@ -20,7 +20,10 @@
     }
 }
 
-.button:hover {
-    background: $orange;
-    cursor: pointer;
+@media (hover: hover) {
+    .button:hover {
+        background: $orange;
+        cursor: pointer;
+    }
 }
+  
