@@ -1,4 +1,5 @@
 window.onload = () => {
+  setTimeout(() => document.querySelector('.preloader').remove(), 3300);
   const modalWindow = document.createElement('div');
   modalWindow.className = 'modal';
   modalWindow.innerHTML = `

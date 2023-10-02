@@ -369,7 +369,6 @@
   transition: 1s;
   border: none;
   z-index: 11;
-  cursor: pointer;
 }
 
 @media screen and (max-width: 834px) {
